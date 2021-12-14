@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+
+<!ELEMENT orderperson (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT addresss (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+
+
+
+<!ELEMENT shipto (name,address,city,country)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT addresss (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+
+<!ELEMENT item (title,note,quantity,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+
+<!ELEMENT shipoder (oderperson,shipto,item)>
+<!ELEMENT orderperson (#PCDATA)>
+<!ELEMENT shipto (#PCDATA)>
+<!ELEMENT item (#PCDATA)>
+
+
+
+

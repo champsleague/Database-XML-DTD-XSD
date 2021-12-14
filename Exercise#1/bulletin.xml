@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bulletin name="newspaper">   
+
+<article1>
+   <title>Men walk on the Moon</title>   
+    <message>Astronauts land on plain, collect rocks, plant flag</message>
+    <writerID>NYT</writerID>
+    <writername>James</writername>
+    <reply>
+    <message>awesome</message>
+    <writerID>USB</writerID>
+    <writername>Mary</writername>    
+    </reply> 
+  </article1> 
+    
+ <article2>
+   <title>Titanic sinks, 1500 die</title>   
+    <message>Catastrophic event has happened during the midnight</message>
+    <writerID>GoldenTimes</writerID>
+    <writername>Tom</writername>
+    <reply>
+    <message>Terrible</message>
+    <writerID>TTAA</writerID>
+    <writername>Kate</writername>    
+    </reply> 
+  </article2>
+  
+  <article3>
+   <title>France wins the WC 2018</title>   
+    <message>France became the champion of 2018 Russia WC</message>
+    <writerID>BOD</writerID>
+    <writername>Wayne</writername>
+    <reply>
+    <message>That's great</message>
+    <writerID>RM</writerID>
+    <writername>Olivia</writername>    
+    </reply> 
+  </article3>   
+    
+</bulletin>     

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<shiporder xmlns="http://www.w3schools.com">
+
+<orderperson>James</orderperson>
+<name>Peter</name>
+<address>Seoul gangname</address>
+<city>Seoul</city>
+<country>Korea</country>
+<title>knife</title>
+<note>knife used for weapons</note>
+<quantity>100</quantity>
+<price>1000.00</price>
+
+<ship category="shipto">
+<name>Peter</name>
+<address>Seoul gangnam</address>
+<city>Seoul</city>
+<country>Korea</country>
+</ship>
+
+<ship category="item">
+<title>knife</title>
+<note>knife used for weapons</note>
+<quantity>100</quantity>
+<price>1000.00</price>
+</ship>
+
+<ship category="shiporder">
+<orderperson orderid="502">James</orderperson>
+<shipto orderid="103">marine</shipto>
+<item orderid="423">knife</item>
+</ship>
+
+</shiporder>
+ 

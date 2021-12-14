@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT article1 (title,message,writerID,writername,reply)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT message (#PCDATA)>
+<!ELEMENT writerID (#PCDATA)>
+<!ELEMENT writername (#PCDATA)>
+<!ELEMENT reply (message,writerID,writername)>
+<!ELEMENT message (#PCDATA)>
+<!ELEMENT writerID (#PCDATA)>
+<!ELEMENT writername (#PCDATA)>
+
+<!ELEMENT article2 (title,message,writerID,writername,reply)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT message (#PCDATA)>
+<!ELEMENT writerID (#PCDATA)>
+<!ELEMENT writername (#PCDATA)>
+<!ELEMENT reply (message,writerID,writername)>
+<!ELEMENT message (#PCDATA)>
+<!ELEMENT writerID (#PCDATA)>
+<!ELEMENT writername (#PCDATA)>
+
+<!ELEMENT article3 (title,message,writerID,writername,reply)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT message (#PCDATA)>
+<!ELEMENT writerID (#PCDATA)>
+<!ELEMENT writername (#PCDATA)>
+<!ELEMENT reply (message,writerID,writername)>
+<!ELEMENT message (#PCDATA)>
+<!ELEMENT writerID (#PCDATA)>
+<!ELEMENT writername (#PCDATA)>
+

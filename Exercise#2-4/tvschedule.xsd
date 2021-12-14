@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.example.org/tvschedule" 
+xmlns:tns="http://www.example.org/tvschedule" 
+elementFormDefault="qualified">
+
+<element name="tvschedule">
+  
+<complexType>
+    <sequence>
+      <element name="title" type="string" />
+      <element name="description" type="string" />
+      <element name="day" type="string" />
+      <element name="channel" type="string" />
+      <element name="host" type="string" />
+    </sequence>
+  </complexType>         
+   </element>
+</schema>

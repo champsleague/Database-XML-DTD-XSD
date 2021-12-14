@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.example.org/newspaper" 
+xmlns:tns="http://www.example.org/newspaper" 
+elementFormDefault="qualified">
+
+<element name="newspaper">
+  
+<complexType>
+    <sequence>
+      <element name="headline" type="string" />
+      <element name="byline" type="string" />
+      <element name="body" type="string" />
+      <element name="year" type="string" />
+      <element name="month" type="string" />
+      <element name="day" type="string" />
+    </sequence>
+  </complexType>          
+  </element>
+
+</schema>
